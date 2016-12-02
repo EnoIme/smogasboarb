@@ -10,8 +10,6 @@ import static org.junit.Assert.*;
 /**
  * Created by owner on 9/11/2016.
  */
-
-@RunWith(value = MockitoJUnitRunner)
 public class UtilTest {
     @Test
     public void getPeopleList() throws Exception {
