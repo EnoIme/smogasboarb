@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <import type="com.blast.inapp.Employer"/>
+        <import type="com.blast.inapp.Util"/>
+        <variable
+            name="employer"
+            type="Employer"/>
+    </data>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/nameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{employer.name}"/>
+
+        <TextView
+            android:id="@+id/descLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{employer.description}"/>
+
+        <TextView
+            android:id="@+id/foundedLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{employer.dateFounded}"/>
+
+    </LinearLayout>
+</layout>

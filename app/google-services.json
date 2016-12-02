@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "786113289126",
+    "firebase_url": "https://learning-dccde.firebaseio.com",
+    "project_id": "learning-dccde",
+    "storage_bucket": "learning-dccde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786113289126:android:0418db2ab83fdb1a",
+        "android_client_info": {
+          "package_name": "com.blast.inapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786113289126-fnab1aid2ultikac7cd7887ho0hd3jgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpz8LGduSgve4rh7ePhbTYjGJJnLghVAA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
